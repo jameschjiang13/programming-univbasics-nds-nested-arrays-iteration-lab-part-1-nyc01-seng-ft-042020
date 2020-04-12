@@ -6,7 +6,7 @@ def find_even_values(src)
   while src[counter] do
     sub_counter = 0
     while src[counter][sub_counter] do
-      if src[counter][sub_counter].even? 
+      if src[counter][sub_counter].even?
         p src[counter][sub_counter]
       end
       sub_counter += 1
